@@ -339,22 +339,22 @@ p {
     }
 
     .frame-1 {
-        top: -100px;
+        top: -120px;
         left: -40px;
     }
 
     .frame-2 {
-        top: -100px;
+        top: -120px;
         right: -40px;
     }
 
     .frame-3 {
-        bottom: -120px;
+        bottom: -125px;
         left: -40px;
     }
 
     .frame-4 {
-        bottom: -120px;
+        bottom: -125px;
         right: -40px;
     }
 
