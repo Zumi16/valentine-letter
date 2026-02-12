@@ -314,3 +314,105 @@ p {
         opacity: 0;
     }
 }
+/* ============================= */
+/* Improved Mobile Responsiveness */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    body {
+        background-attachment: scroll; /* fixed causes issues on mobile */
+        padding: 20px;
+    }
+
+    /* Envelope */
+    #envelope {
+        width: 70vw;
+        max-width: 320px;
+    }
+
+    /* Photo frames repositioned closer */
+    .photo-frame {
+        width: 95px;
+        height: 95px;
+        border-width: 5px;
+    }
+
+    .frame-1 {
+        top: -100px;
+        left: -40px;
+    }
+
+    .frame-2 {
+        top: -100px;
+        right: -40px;
+    }
+
+    .frame-3 {
+        bottom: -120px;
+        left: -40px;
+    }
+
+    .frame-4 {
+        bottom: -120px;
+        right: -40px;
+    }
+
+    /* Letter window */
+    .letter-window {
+        width: 95vw;
+        max-width: 95vw;
+        padding-top: 100px;
+        transform: scale(1);
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    #text-container {
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    /* Cat image */
+    .cat {
+        width: 150px;
+        margin: 0;
+    }
+
+    .letter-window.final .cat {
+        width: 100px;
+    }
+
+    /* Buttons stacked vertically */
+    .buttons {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+    .yes-btn {
+        margin-bottom: 5px;
+    }
+
+    .yes-btn,
+    .no-btn {
+        width: 60px;
+        margin-top: 0;
+    }
+
+    .final-text {
+        font-size: 0.6rem;
+        padding: 8px 15px;
+        margin-bottom: 20px;
+    }
+
+    .valentine-date {
+        margin-top: 0;
+        font-size: 0.8rem;
+    }
+}
